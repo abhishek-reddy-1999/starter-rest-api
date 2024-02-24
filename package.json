@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "env-cmd nodemon index.js",
-    "repl": "env-cmd node"
+    "start": "nodemon index.js"
+   
   },
   "keywords": [],
   "author": "Kam Lasater <kam.lasater@cyclic.sh>",
@@ -14,8 +14,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "@cyclic.sh/dynamodb": "^0.0.33",
-    "env-cmd": "^10.1.0",
+     "nodemon": "^2.0.22",
     "express": "^4.18.1"
   }
 }
