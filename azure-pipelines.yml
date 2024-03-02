@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    nodemon index.js
+
   displayName: 'npm install and build'
